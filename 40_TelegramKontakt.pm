@@ -183,7 +183,7 @@ sub TelegramKontakt_Get($@) {
 =begin html
 
 <a name="TelegramKontakt"></a>
-<h3>dummy</h3>
+<h3>TelegramKontakt</h3>
 <ul>
 
   Define a TelegramKontakt. A TelegramKontakt can take via <a href="#set">set</a> any messages that are send to the Kontakt if the State is inform.
@@ -247,7 +247,7 @@ sub TelegramKontakt_Get($@) {
 =begin html_DE
 
 <a name="TelegramKontakt"></a>
-<h3>dummy</h3>
+<h3>TelegramKontakt</h3>
 <ul>
 
   Definiert eine TelegramKontaktvariable, der mit <a href="#set">set</a> message beliebige Nachrichten an den Kontakt versenden kann, wenn der STATE des Kontakts auf inform steht
