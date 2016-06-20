@@ -136,11 +136,14 @@ sub
 TelegramKontakt_Define($$)
 {
   my ($hash, $def) = @_;
+  my $name = $hash->{NAME};
   my @a = split("[ \t][ \t]*", $def);
 
   return "Wrong syntax: use define <name> TelegramKontakt" if(int(@a) != 2);
   
   $hash->{STATE} = "quiet";
+  
+  $attr{$name}{devStateIcon} = 'quiet:ios-off:inform inform:ios-on-blue:quiet' unless (exists($attr{$name}{devStateIcon}));
   return undef;
 }
 
